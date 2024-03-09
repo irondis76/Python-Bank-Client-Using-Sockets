@@ -10,15 +10,12 @@ The banking system allows users to perform basic banking operations such as logi
 
 ### Server
 1. Clone the repository to your local machine.
-2. Navigate to the `server` directory.
-3. Install the required dependencies: `pip install -r requirements.txt`
-4. Generate SSL certificate and key files using OpenSSL: openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt -subj "/C=IN/ST=Karnataka/L=Bengaluru/O=XYZ Bank/OU=BANK/CN=XYZ Bank Server/emailAddress=xyzbankadmin@gmail.com" -addext "subjectAltName=<YOURIPADDRESS>"
-5. Run the server: `python server.py`
+2. Install the required dependencies: `pip install -r requirements.txt`
+3. Generate SSL certificate and key files using OpenSSL: openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt -subj "/C=IN/ST=Karnataka/L=Bengaluru/O=XYZ Bank/OU=BANK/CN=XYZ Bank Server/emailAddress=xyzbankadmin@gmail.com" -addext "subjectAltName=<YOURIPADDRESS>"
+4. Run the server: `python server.py`
 
 ### Client
-1. Navigate to the `client` directory.
-2. Install the required dependencies: `pip install -r requirements.txt`
-3. Run the client: `python client.py`
+1. Run the client: `python client.py`
 
 ## How It Works
 
